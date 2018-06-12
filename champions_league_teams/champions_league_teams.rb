@@ -10,9 +10,9 @@ module ChampionsLeagueClubs
     end
   end
 
-  class SpanishClubs < CommonTraits
+  class EnglishClubs < CommonTraits
     def self.league
-      puts "Must be currently playing the Spanish top flight (Liga BBVA) and have finished in the top 4 league wise, however they do not have to be located in spain; which is the case for arguably the best side in the division, Barcelona, which is situated in Catalonia."
+      puts "Must be currently playing the English top flight (English Premier League) and have finished in the top 4 league wise, however they do not have to be located in England; which is the case for Swansea, which is situated in Wales."
     end
   end
 
@@ -27,5 +27,5 @@ module ChampionsLeagueClubs
       puts "Must be currently playing the German top flight (Bundesliga) and have finished in the top 4 league wise, however, unlike Spain and Italy you must be located in Germany to participate. This is slightly contradicted by their national team which has players born from Turkey and Poland."
     end
   end
-  
+
 end
